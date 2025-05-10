@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tektur:wght@400..900&display=swap');
+
+
+
+*{
+    margin: 0;
+padding: 0;
+}
+body{
+    background: url('img/london.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.box{
+    width: 100%;
+    border-bottom:2px solid purple;
+    margin: 22px -10px;
+}
+.box input{
+    background: none;
+    width:86%;
+    
+    padding: 5px 6px;
+font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+border-radius: 4px;
+}
+ .box i{
+    width: 25px;
+    text-align: center;
+} 
+.btn{
+    font-family: "Open Sans", sans-serif;
+    border: 2px solid purple;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 6px;
+    outline: none;
+    width: 25%;
+    padding: 10px 4px;
+    font-size: 18px;
+    color: rgb(245 240 240);
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color: purple;
+    background: wheat;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 57%;
+    width: 380px;
+}
+.container h1{
+    font-family: "Tektur", sans-serif;
+display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+margin-bottom: 9px;
+    padding: 13px 0px;
+}
