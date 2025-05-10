@@ -8,7 +8,7 @@
 padding: 0;
 }
 body{
-    background: url('img/london.jpg') no-repeat center center fixed;
+    background: url('london.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 .box{
